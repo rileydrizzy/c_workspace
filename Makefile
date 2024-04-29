@@ -5,3 +5,6 @@ help:
 	@echo "    freeze_reqs          Save the dependencies onto the requirements text file"
 
 	
+save:
+	@echo "Saving and Pushing to Github"
+	. ./auto_save.sh
