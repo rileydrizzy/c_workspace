@@ -29,7 +29,3 @@ $(TARGET): $(OBJS)
 # Clean up intermediate object files and executable
 clean:
 	rm -f $(OBJS) $(TARGET)
-
-save:
-	@echo "Saving and Pushing to Github"
-	. ./auto_save.sh
