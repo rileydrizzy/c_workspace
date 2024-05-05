@@ -30,7 +30,6 @@ $(TARGET): $(OBJS)
 clean:
 	rm -f $(OBJS) $(TARGET)
 
-
 save:
 	@echo "Saving and Pushing to Github"
 	. ./auto_save.sh
