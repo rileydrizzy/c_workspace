@@ -1,15 +1,13 @@
-.DEFAULT_GOAL := help
-
 # Makefile for compiling C code using the Clang compiler
 
 # Compiler
 CC = clang
 
 # Compiler flags
-CFLAGS = -Wall -Wextra -std=c11
+CFLAGS = -Wall -Wextra -std=c18
 
 # Source files
-SRCS = main.c file1.c file2.c
+SRCS = main.c example.c
 
 # Object files
 OBJS = $(SRCS:.c=.o)
