@@ -7,13 +7,13 @@ CC = clang
 CFLAGS = -Wall -Wextra -std=c18
 
 # Source files
-SRCS = main.c
+SRCS = main.c example.c
 
 # Object files
 OBJS = $(SRCS:.c=.o)
 
 # Executable name
-TARGET = myprogram
+TARGET = main
 
 # Default target
 all: $(TARGET)
