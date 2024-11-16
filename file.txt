@@ -1,2 +1,2 @@
 new world
-clang -c program.c -o program
+clang program.c -o program -Wall
