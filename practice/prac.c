@@ -1,18 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-void swap(int *A, int *B)
-{
-    int temp = *A;
-    *A = *B;
-    *B = temp;
-}
+#include <string.h>
 
 int main()
 {
-    int number_1 = 22;
-    int number2 = 44;
-    printf("Before swap: Number_1 = %i and Number_2 = %i \n", number_1, number2);
-    swap(&number_1, &number2);
-    printf("After swap: Number_1 = %i and Number_2 = %i \n", number_1, number2);
-    return EXIT_SUCCESS;
+    char line[80];
+    FILE *in = fopen("spooky.csv", );
+    FILE *file1 = fopen
 }
