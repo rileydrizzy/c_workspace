@@ -1,6 +1,7 @@
-#ifndef __EXAMPLE_H
-#define __EXAMPLE_H
+int my_calc(int num_1, int num_2);
 
-void ladi_func(void);
-
-#endif
+int my_calc(int num_1, int num_2)
+{
+    int ans = num_1 + num_2;
+    return ans;
+}
