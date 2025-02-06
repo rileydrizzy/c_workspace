@@ -1,5 +1,6 @@
 # Ignore all files without an extension (commonly executables on Unix-based systems)
 .*
+*
 
 # Prerequisites
 *.d
