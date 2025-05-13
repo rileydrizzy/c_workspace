@@ -3,7 +3,7 @@
 #include <string.h>
 
 char TRACKS[][80] = {
-    "I left my heart in havaard Med School",
+    "I left my heart in Harvard Med School",
     "Newark, Newark - a wonderful town",
     "Dancing with a Dork",
     "From here to maternity",
