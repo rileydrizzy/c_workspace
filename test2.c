@@ -15,13 +15,14 @@ int search_track(char *track_f, int no_track)
 /* Search for track
  */
 {
-    for (int i = 0; i <= no_track; i++)
+    int found;
+    for (int i = 0; i < no_track; i++)
     {
-        if (!strcmp(track_f, TRACKS[i]))
-            return i;
-        else
-            return -1;
+        if (strstr(TRACKS[i], track_f))
+            found = i;
+        break;
     }
+    printf("Found track in %d\n", found + 1);
 }
 
 int main(void)
@@ -30,11 +31,6 @@ int main(void)
     int no_track = 6;
     puts("Enter Track to find");
     scanf("%79s", buffer);
-    int ans = search_track(buffer, no_track);
-    printf("%d", ans);
-    if (ans > -1)
-        printf("Found track in %d\n", ans);
-    else
-        puts(" Track not found\n");
+    search_track(buffer, no_track);
     return EXIT_SUCCESS;
 }
