@@ -1,6 +1,11 @@
 # Ignore all files without an extension (commonly executables on Unix-based systems)
-.*
 *
+
+# But do not ignore directories (so Git can traverse)
+!*/
+
+# And do not ignore files that have an extension
+!*.*
 
 # Prerequisites
 *.d
