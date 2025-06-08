@@ -64,3 +64,4 @@ dkms.conf
 .vscode
 .cache/
 .ccls-cache/
+.replit
