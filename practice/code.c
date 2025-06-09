@@ -1,10 +1,21 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
-int main()
+#define squared(x) ((x) * (x))
+
+int main(void)
 {
-    char name[5] = "Ladi";
-    fprintf(stdout, "%s\n", name);
+    double my_ans;
+    scanf("%lf", &my_ans);
+    double ans = 18.0 / squared(2 + 1);
+    if (ans == my_ans)
+    {
+        puts("That is correct\n");
+    }
+    else
+    {
+        printf("The correct answer is = %lf\n", ans);
+    }
+
     return EXIT_SUCCESS;
 }
-

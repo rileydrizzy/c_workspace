@@ -6,6 +6,20 @@ CC = clang
 # Compiler flags
 CFLAGS = -Wall -Wextra -std=c18
 
+# Varable declaration
+FILE = 
+OUT ?= program
+
 # Compile source files to object files
-CNR: 
-	$(CC) $(CFLAGS) temp.c -o temp && ./temp
+all: 
+	$(CC) $(CFLAGS) $(FILE) -o $(OUT)
+
+
+$(OUT):
+
+
+run: all
+	./$(OUT)
+
+clean:
+	rm -f $(OUT)
