@@ -24,7 +24,7 @@ void test_char(char val)
     }
 }
 
-int main(void)
+void problem_2_ans(void)
 {
     char lower_case = 'c';
     char upper_case = 'C';
@@ -34,5 +34,22 @@ int main(void)
     test_char(upper_case);
     test_char(nums);
     test_char(unknown_char_element);
-    return EXIT_SUCCESS;
+}
+
+void problem_3_ans(void)
+{
+
+    int val = 0xCAFE;
+    int bits = val & 0xFF;
+    if (bits == 0x7 || bits == 0xB || (bits >= 0xD))
+        puts("The last three of the last bits are on");
+
+}
+
+int main(void)
+{
+    problem_2_ans();
+    puts("------------")
+    problem_3_ans();
+    return 0;
 }
