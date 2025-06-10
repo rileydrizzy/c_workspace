@@ -43,13 +43,37 @@ void problem_3_ans(void)
     int bits = val & 0xFF;
     if (bits == 0x7 || bits == 0xB || (bits >= 0xD))
         puts("The last three of the last bits are on");
+    // reverse the byts order -  0xFECA
+    puts("------------");
+    int ans = ((val & 0xFF) << 8) | (val >> 8);
+    printf("0x%x \n", ans);
+    puts("------------");
+    ans = ((val & 0xF) << 12) | (val >> 4);
+    printf("0x%x \n", ans);
+}
 
+void problem_4_ans(void)
+{
+    int x, MASK, y, z, c;
+    x = 0xFF33, MASK = 0xFF00;
+    c = (x & MASK) == 0;
+    printf("0x%x \n", c);
+    puts("------------");
+    x = 10, y = 2, z = 2;
+    z = y = (x++) + ((++y) * 2);
+    printf("%d\n", z);
+    puts("------------");
+    x = 10, y = 4, z = 1;
+    y >>= x & 0x2 && z;
+    printf("0x%x\n", y);
 }
 
 int main(void)
 {
     problem_2_ans();
-    puts("------------")
+    puts("------------");
     problem_3_ans();
+    puts("------------");
+    problem_4_ans();
     return 0;
 }
