@@ -1,0 +1,94 @@
+Good - Morally right or kind; of high quality.
+Lovely - Beautiful or very pleasant.
+Brave - Showing courage; not afraid.
+Quick - Moving fast or happening in a short time.
+Bright - Giving off lots of light; intelligent.
+Strong - Having great power or strength.
+Gentle - Soft, kind, and careful.
+Tall - Of greater than average height.
+Short - Small in length or height.
+Quiet - Making little or no noise.
+Loud - Producing a lot of noise.
+Clever - Smart; able to solve problems easily.
+Kind - Caring and nice to others.
+Honest - Telling the truth; not lying.
+Happy - Feeling joy or pleasure.
+Sad - Feeling unhappy or sorrowful.
+Angry - Feeling strong displeasure or rage.
+Funny - Causing laughter; amusing.
+Lazy - Not wanting to work or be active.
+Rich - Having a lot of money or valuable things.
+Poor - Having little money or few resources.
+Hard - Firm or difficult to do.
+Soft - Easy to press or gentle to touch.
+Warm - Slightly hot or comfortable in temperature.
+Cold - Having a low temperature.
+Wet - Covered in water or another liquid.
+Dry - Free from moisture.
+Fast - Moving quickly.
+Slow - Moving at a low speed.
+Clean - Free from dirt or mess.
+Dirty - Not clean; covered in dirt.
+Sweet - Tasting like sugar; pleasant.
+Bitter - Having a sharp, unpleasant taste.
+Sour - Having an acidic taste like lemon.
+Big - Large in size.
+Small - Little in size or amount.
+Old - Having lived for many years; aged.
+Young - In an early stage of life.
+New - Recently made or created.
+Early - Before the usual time.
+Late - After the expected time.
+Dark - With little or no light.
+Light - Not heavy; or full of brightness.
+Easy - Not difficult; simple.
+Difficult - Hard to do or understand.
+Deep - Going far down or far inside.
+Shallow - Not deep.
+Narrow - Small in width.
+Wide - Large from side to side.
+Weak - Lacking strength.
+Smooth - Having an even surface.
+Rough - Having a bumpy or uneven surface.
+Sharp - Having a thin edge or point that cuts easily.
+Dull - Not sharp or not interesting.
+Faint - Weak or barely noticeable.
+Thick - Wide from side to side; not thin.
+Thin - Having little width or depth.
+Heavy - Weighing a lot.
+Noisy - Making a lot of noise.
+Silent - Completely quiet.
+Polite - Having good manners.
+Rude - Not polite; offensive.
+Friendly - Acting in a kind and helpful way.
+Mean - Unkind or cruel.
+Safe - Free from danger.
+Dangerous - Likely to cause harm.
+Beautiful - Very pleasing to look at.
+Ugly - Not nice to look at.
+Tired - Needing rest or sleep.
+Fresh - Recently made, grown, or picked.
+Old-fashioned - Out of date or not modern.
+Modern - Related to the present time.
+Busy - Having a lot to do.
+Free - Not busy; without cost.
+Calm - Peaceful and quiet.
+Wild - Untamed; uncontrolled.
+Hardworking - Always working with effort.
+Silly - Showing lack of good sense; foolish.
+Wise - Showing good judgment.
+Curious - Eager to know or learn something.
+Serious - Not joking; thoughtful or important.
+Clear - Easy to see or understand.
+Cloudy - Full of clouds; unclear.
+Strong-willed - Determined to do what you want.
+Flexible - Able to bend or change easily.
+Stiff - Not easy to bend or move.
+Loyal - Always supporting someone or something.
+Faithful - True and dependable.
+Careful - Taking care to avoid danger or mistakes.
+Careless - Not paying attention; likely to make mistakes.
+Helpful - Willing to help.
+Powerful - Having great strength or control.
+Creative - Good at making new things or ideas.
+Patient - Able to wait without becoming annoyed.
