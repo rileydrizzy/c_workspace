@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <strings.h>
 
-char *lookup_words_def(char name[]) {}
+/* Header for dict.c*/
 
-void load_dictionary() {}
+char *lookup_words_def(char name[]);
 
-char *the_dictionary[100][100];
+void load_dictionary();
+
+extern char the_dictionary[100][71];

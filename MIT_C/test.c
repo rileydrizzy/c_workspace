@@ -2,14 +2,23 @@
 #include <stdio.h>
 #include <string.h>
 
-int DICT_SIZE = 3;
-
-char *the_dictionary[3];
+/* data structure for the dictionary */
+int DICT_SIZE = 5;
+int DICT_LENGTH = 70;
+char the_dictionary[100][71];
 
 void load_dictionary()
 {
     FILE *vocabulary_file = fopen("vocabulary_list.txt", "r");
-    if
+    if (vocabulary_file)
+    {
+        for (int i = 0; i < DICT_SIZE; i++)
+        {
+            fgets(the_dictionary[i], sizeof(char) * 71, vocabulary_file);
+            printf("%s", the_dictionary[i]);
+        }
+        fclose(vocabulary_file);
+    }
 }
 
 char *lookup_words_def(char word[])
@@ -28,11 +37,9 @@ char *lookup_words_def(char word[])
 
 int main(void)
 {
-    char *ans = lookup_words_def("bave");
-    if (ans == NULL)
-        puts("Word not found in dictionary");
-    // loop back to input
-    else
-        printf("%s", ans);
-    // loop back to input
+    puts("Start;");
+    load_dictionary();
+    puts("End");
+    printf("%s\n", the_dictionary[3]);
+    return 0;
 }

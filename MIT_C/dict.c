@@ -1,11 +1,9 @@
 #include "dict.h"
-#include <string.h>
-#include <strings.h>
 
 /* data structure for the dictionary */
 int DICT_SIZE = 100;
-
-char *the_dictionary[100];
+int DICT_LENGTH = 70;
+char the_dictionary[100][71];
 
 char *lookup_words_def(char word[])
 {
@@ -25,7 +23,7 @@ void load_dictionary()
     {
         for (int i = 0; i < DICT_SIZE; i++)
         {
-            fgets(the_dictionary[i], sizeof(), vocabulary_file);
+            fgets(the_dictionary[i], sizeof(the_dictionary[i]), vocabulary_file);
         }
         fclose(vocabulary_file);
     }
