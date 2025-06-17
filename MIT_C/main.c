@@ -2,9 +2,10 @@
 #include <stdbool.h>
 #include "dict.h"
 
+//  clang -Wall main.c dict.c -o dictionary.0 && ./dictionary.o
 
 // TODO implement a way for user to terminate program
-// TODO bug in logic for search word in the first 20 
+// TODO bug in logic for search word in the first 20
 // TODO bug in finding the exact match of word
 
 int main(void)
