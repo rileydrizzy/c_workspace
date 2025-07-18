@@ -58,5 +58,6 @@ int main(void)
     // insertion_sort();
     insetion_sort_pointer(array_int);
     print_out_arr();
+    puts("New");
     return EXIT_SUCCESS;
 }
