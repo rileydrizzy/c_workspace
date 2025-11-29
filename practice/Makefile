@@ -21,5 +21,6 @@ $(OUT):
 run: all
 	./$(OUT)
 
+# Clean up intermediate object files and executable
 clean:
-	rm -f $(OUT)
+	rm -f $(OBJS) $(TARGET)
